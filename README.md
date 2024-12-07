@@ -168,3 +168,35 @@ In OAuth 2.0, apps use access tokens to access protected data
 2. Resource Owner: Owns the data in the resource server. An entity capable of granting access to protected data. For example, a user Google Drive account.
 3. Resource Server: The API which stores the data. For example, Google Photos or Google Drive.
 4. Client: It is a third-party application that wants to access your data, for example, a photo editor application.
+
+### 9. API
+![img.png](img.png)
+
+### 10 What is REST API?
+An API can be REST if it follows the below constraints-
+1. Uniform Interface ->Both client and server has to communicate and agree to certain rules (like they should communicate with same resource xml, json).
+2. APIs are stateless and client and server does not worry about state of request or response.
+
+### 11. What is payload in API?
+A payload refers to the actual data that is being transferred between the client and the server.
+
+In the context of an API (Application Programming Interface), a payload refers to the data that is sent in a request or received in a response.
+It is the essential content of the message being transmitted between a client (such as a web application or mobile app) and a server.
+
+### 12. What are the types of status codes?
+1xx-- Informational
+
+2xx-- 
+200  OK - Request has succeeded
+201 created
+
+4xx--
+1. 400 Bad Request - Server could not understand the request due to incorrect syntax.
+2. 401 unauthorized - the server was unable to identify the user because the client's authentication credentials were invalid or missing.
+3. 403 Forbidden - The client does not have access rights to the content. 
+4. 404 Not Found - The server can not find the requested resource.
+
+5xx--
+1. 500 Internal Server error -
+
+### 13. 
