@@ -3,7 +3,7 @@
 ### 1. Difference between API and Webservices?
 
 API is a code used locally to perform specific action like API POI to interact with Excels.
-Whereas if an API is used over the network for interaction between 2 components then it's called as web services.
+Whereas if an API is used over the network for interaction between 2 components then it's called as web services. For ex You send a request through UI application to get a product detail which is saved in Database. For this a request mostly an HTTP request is sent from UI application to a Webservice hosted on some pysical or cloud server. The webservice(mostly Java) will then take the HTTP request, which includes request details in payload(JSON/XML format), create a query from this request and then query database and return you the details.
 
 ### 2. What is messaging in Restful WebServices?
 The technique of sending a message from the client to the back end server in the form of an HTTP request and the server responding back with the response as HTTP Response is called Messaging. 
